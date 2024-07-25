@@ -3,7 +3,6 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import { useSearchParams } from "react-router-dom";
 import styled from "styled-components";
 import { PAGE_SIZE } from "../utils/constants";
-import Button from "./Button";
 
 const StyledPagination = styled.div`
   width: 100%;
@@ -105,7 +104,6 @@ function Pagination({ count }) {
         >
           <span>Next</span> <HiChevronRight />
         </PaginationButton>
-        <Button>Add new Booking</Button>
       </Buttons>
     </StyledPagination>
   );
